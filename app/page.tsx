@@ -1,4 +1,6 @@
 import ProductCard from "./ProductCard";
+import UserCard from "./UserCard";
+
 
 function Home() {
   return (
@@ -22,6 +24,10 @@ function Home() {
       price={800.99} 
       inStock={true}
         />
+      <p>  **********************************    </p>
+      <UserCard name="Ahmad" age={30} isPremium={true} />
+      <p>  ----------------    </p>
+      <UserCard name="Ali" age={25} isPremium={false} />
     </>
   );
 }
