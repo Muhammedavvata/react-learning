@@ -1,0 +1,15 @@
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 8px;
+  border-radius: 8px;
+  background-color: #6c6f6d;
+}
+
+.in-stock {
+  color: green;
+}
+.out-of-stock {
+  color: red;
+}

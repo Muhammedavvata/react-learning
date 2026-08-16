@@ -1,3 +1,5 @@
+import "./UserCard.css";
+
 type UserCardProps = {
   name: string,
   age: number,
