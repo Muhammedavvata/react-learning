@@ -1,5 +1,3 @@
-import Button from "./Button";
-import NameInput from "./NameInpute";
 import ProductCard from "./ProductCard";
 import UserCard from "./UserCard";
 import EventChallenge from "./EventChallenge";
@@ -31,12 +29,6 @@ function Home() {
       <UserCard name="Ahmad" age={30} isPremium={true} />
       <p>  ----------------    </p>
       <UserCard name="Ali" age={25} isPremium={false} />
-      <p>  **********************************    </p>
-      <h1>Events</h1>
-      <Button firstButton="Hello Mohammed!" secondButton="Goodbye Mohammed!" />
-      <p>  **********************************    </p>
-      <h1>Stage 6 - Events</h1>
-      <NameInput />
       <p> ***********************************  </p>
       <EventChallenge />
     </>
